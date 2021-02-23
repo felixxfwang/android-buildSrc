@@ -9,9 +9,9 @@ class ModularPlugin implements Plugin<Project> {
     void apply(Project project) {
         project.apply plugin: 'kotlin-kapt'
         project.dependencies {
-            kapt "com.google.auto.service:auto-service:1.0-rc4"
-            annotationProcessor "com.google.auto.service:auto-service:1.0-rc4"
-            implementation "com.google.auto.service:auto-service:1.0-rc4"
+            kapt "com.google.auto.service:auto-service:1.0-rc6"
+            annotationProcessor "com.google.auto.service:auto-service:1.0-rc6"
+            implementation "com.google.auto.service:auto-service:1.0-rc6"
 
             implementation "com.alibaba:arouter-api:1.5.0"
             kapt "com.alibaba:arouter-compiler:1.2.2"
