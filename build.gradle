@@ -10,23 +10,25 @@ buildscript {
 
     repositories {
         mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         // tencent mirrors
-        maven { url "http://mirrors.tencent.com/repository/maven/thirdparty/" }
-        maven { url "http://mirrors.tencent.com/repository/maven/tencent_public_snapshots/" }
-        maven { url "http://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" }
-        maven { url "http://mirrors.tencent.com/nexus/repository/maven-public/" }
-        maven { url "http://mirrors.tencent.com/repository/maven/tencent_public/" }
+//        maven { url "http://mirrors.tencent.com/repository/maven/thirdparty/" }
+//        maven { url "http://mirrors.tencent.com/repository/maven/tencent_public_snapshots/" }
+//        maven { url "http://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" }
+//        maven { url "http://mirrors.tencent.com/nexus/repository/maven-public/" }
+//        maven { url "http://mirrors.tencent.com/repository/maven/tencent_public/" }
     }
 }
 
 repositories {
     mavenLocal()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     // tencent mirrors
-    maven { url "http://mirrors.tencent.com/repository/maven/thirdparty/" }
-    maven { url "http://mirrors.tencent.com/repository/maven/tencent_public_snapshots/" }
-    maven { url "http://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" }
-    maven { url "http://mirrors.tencent.com/nexus/repository/maven-public/" }
-    maven { url "http://mirrors.tencent.com/repository/maven/tencent_public/" }
+//    maven { url "http://mirrors.tencent.com/repository/maven/thirdparty/" }
+//    maven { url "http://mirrors.tencent.com/repository/maven/tencent_public_snapshots/" }
+//    maven { url "http://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" }
+//    maven { url "http://mirrors.tencent.com/nexus/repository/maven-public/" }
+//    maven { url "http://mirrors.tencent.com/repository/maven/tencent_public/" }
 }
 
 dependencies {
